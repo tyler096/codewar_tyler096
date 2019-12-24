@@ -7,14 +7,14 @@ def well(x):
     :param x: goodとbadを含むリスト
     :return: Fail/Publish!/I smell a series!
     """
-    num = x.count('good')
+    num = x.count("good")
     if num > 0:
         if num <= 2:
-            return 'Publish!'
+            return "Publish!"
         else:
-            return 'I smell a series!'
+            return "I smell a series!"
     else:
-        return 'Fail!'
+        return "Fail!"
 
 
 """

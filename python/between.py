@@ -9,7 +9,8 @@ def between(a: int, b: int) -> List[int]:
     :param b: ゴールの数
     :return: aからbへずつ増加する等差数列のリスト
     """
-    return list(np.arange(a, b+1, 1))
+    return list(np.arange(a, b + 1, 1))
+
 
 """
 def between(a, b):

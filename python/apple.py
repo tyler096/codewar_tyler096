@@ -6,8 +6,7 @@ def apple(x: any) -> str:
     :param x: strかintで数字が与えらえる
     :return: xの計算結果によっていずれからの文字列を返却する。
     """
-    if int(x)**2 > 1000:
+    if int(x) ** 2 > 1000:
         return "It's hotter than the sun!!"
     else:
         return "Help yourself to a honeycomb Yorkie for the glovebox."
-
